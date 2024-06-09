@@ -36,6 +36,7 @@ print(f"팀점수 : {Person.team_point}")
 print(f"p1의 개인점수 : {p1.personal_point}")
 print(f"p2의 개인점수 : {p2.personal_point}")
 
+print("# of point = ", p1.get_point())  # 출력test: None
 print(f"{p1.get_point()}-- 점수 획득 --")
 print(f"팀점수 : {Person.team_point}")
 print(f"p1이 아는 팀점수 : {p1.team_point}")
